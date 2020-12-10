@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Test2</title>
+    </head>
+
+    <body>
+      <script>
+        var todos = ['item 1', 'item 2', 'item 3'];
+
+        console.log(todos);
+
+        function add(todo) {
+          todos.push(todo);
+          console.log(todos);
+        }
+
+        function esit(position, newValue) {
+          todos[position] = newValue;
+          console.log(todos);
+        }
+
+        function remove(position) {
+          todos.splice(position, 1);
+          console.log(todos);
+        }
+
+        remove(0);
+      </script>
+    </body>
+</html>
